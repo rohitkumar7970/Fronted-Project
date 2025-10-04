@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header part -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#" class="logo-txt">Bake<span>ry.</span></a>
+            </div>
+
+            <ul class="navlist" id="navlist">
+                <li>
+                    <a href="#" class="navlinks active">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="navlinks">About</a>
+                </li>
+                <li>
+                    <a href="#" class="navlinks">Menu</a>
+                </li>
+                <li>
+                    <a href="#" class="navlinks">Restaurent</a>
+                </li>
+                <li>
+                    <a href="#" class="navlinks">Contact</a>
+                </li>
+
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="icons-link"><i class="fa-solid fa-user"></i></a>
+                <a href="#" class="icons-link"><i class="fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Part -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section container mint-glow">
+            <div class="content">
+                <div class="watch">
+                    <a href="#" class="icons-link"><i class="fa-solid fa-play"></i></a>
+                    <h3>Watch Video</h3>
+                </div>
+                <h1>The Perfect Baked Cake Everyday!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ullam pariatur rerum voluptate
+                    necessitatibus eligendi illum dolorem odit ad voluptatem.</p>
+
+                <div class="btn-container">
+                    <button data-type="bordered-btn">Read More</button>
+                    <button>Order Now</button>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <!-- <img src="https://media.istockphoto.com/id/1146488697/photo/chocolate-cake-with-cherries-on-wooden-background.jpg?s=612x612&w=0&k=20&c=wa7WBUBLWNQdloPIudRHmHnargR3jnErZC_AHzyuLtw="> -->
+                <img
+                    src="https://media.istockphoto.com/id/2159775436/photo/colorful-sugar-sprinkles-decoration-for-cakes-and-bakery-items-flying-in-the-air-3d.jpg?s=612x612&w=0&k=20&c=AULzm1I3SKaqTzHFIFNUtriO-i7OU1HEvolbs0ZVMqk=">
+
+            </div>
+        </section>
+
+        <!-- Store Section -->
+        <section class="other-section container">
+            <div class="column-container">
+                <h2>Welcome To Our Store</h2>
+                <p data-type="centered-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea at,
+                    magnam tempora odit ipsum corporis eos accusamus.</p>
+
+                <div class="card-container">
+                    <div class="card" data-type="category">
+                        <img src="images/cake.png">
+                        <h3>Cake</h3>
+                    </div>
+                    <div class="card" data-type="category">
+                        <img src="images/sandwich.png">
+                        <h3>Sandwich</h3>
+                    </div>
+                    <div class="card" data-type="category">
+                        <img src="images/cookies.png">
+                        <h3>Cookie</h3>
+                    </div>
+                    <div class="card" data-type="category">
+                        <img src="images/bread.png">
+                        <h3>Bread</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="other-section container"> 
+            <div class="row-container">
+                <div class="image-container">
+                    <img
+                        src="https://media.istockphoto.com/id/1146488697/photo/chocolate-cake-with-cherries-on-wooden-background.jpg?s=612x612&w=0&k=20&c=wa7WBUBLWNQdloPIudRHmHnargR3jnErZC_AHzyuLtw=">
+                </div>
+
+                <div class="content">
+                    <h2>About <br> Cakery Bakery</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et vero odio deserunt fuga. Assumenda
+                        quam autem nulla
+                        quis cumque natus minus at.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis accusamus necessitatibus et
+                        quam ullam!</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Featured Food -->
+
+        <section class="other-section container">
+            <div class="column-container">
+                <h2>Our Feature Food</h2>
+                <p data-type="centered-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde in laborum
+                    quidem molestias deleniti corrupti est quia enim, molestiae aliquid!</p>
+                <div class="card-container">
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/2061222263/photo/orange-drip-cake.webp?a=1&b=1&s=612x612&w=0&k=20&c=GqK9oFIOkPm6C9Yer5lj25LJ4FSamNk8G8IPKIfzXNY=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$15.00</h4>
+                            <h4>Birthday Cake</h4>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/1278918978/photo/choco-chips-cake.jpg?s=612x612&w=0&k=20&c=nVcDeeEt6wbpJy5Lv8rsLj4wLk31DNRxAqVWfP5Zmpk=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$31.00</h4>
+                            <h4>Muffins Cake</h4>
+                        </div>
+                    </div>
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/1349560821/photo/traditional-vanilla-pound-cake-with-orange-extract-bundt-cake.jpg?s=612x612&w=0&k=20&c=zyRXeNJIUVzVVhxujIPsnEfAoczJGmab1X9fKfOXWv8=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$18.00</h4>
+                            <h4>waffles Cake</h4>
+                        </div>
+                    </div>
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/1475055405/photo/strawberry-cake.jpg?s=612x612&w=0&k=20&c=iNFvjTRN1fA2isLXkO69_j1ULAqsbyx4pFNeVclnUcE=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$21.00</h4>
+                            <h4>Fancy Cake</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-container">
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/1042314828/photo/red-velvet-sponge-swiss-roll-with-fresh-raspberry-on-dark-background.jpg?s=612x612&w=0&k=20&c=zsu8rIfstUFvbvIJ0eUZRnPZ6hZkpByrMtfWya_sisg=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$15.00</h4>
+                            <h4>Strawberry Cake</h4>
+                        </div>
+                    </div>
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/1142391733/photo/white-forest-cake.jpg?s=612x612&w=0&k=20&c=MNVWFcwDbWM7u24AlFR5OM7jnvcShs1ZJNU6haWI4VM=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$15.00</h4>
+                            <h4>Raspberry Cake</h4>
+                        </div>
+                    </div>
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/1187830875/photo/confectioner-decorating-chocolate-cake-close-up.jpg?s=612x612&w=0&k=20&c=sAUop7R4pohc-Pghb3CqVJnFE44p2phGi47z7pjK4Lc=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$15.00</h4>
+                            <h4>Chocolate Cake</h4>
+                        </div>
+                    </div>
+                    <div class="card" data-type="padbloc">
+                        <div class="image-part">
+                            <img
+                                src="https://media.istockphoto.com/id/615812618/photo/chocolate-cupcake-with-chocolate-butter-cream-swirl.jpg?s=612x612&w=0&k=20&c=8otpAE8WamlVS2BjMf6do9o_V0ig1W2zEARdMFWs4DY=">
+
+                        </div>
+                        <div class="detail">
+                            <h4>$15.00</h4>
+                            <h4>Donut Cake</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- App Section -->
+        <section class="other-section container">
+            <div class="row-container">
+                <div class="content">
+                    <h2>App Is Soon <br>On App Store</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aut quo maxime ad tenetur, expedita
+                        laborum illo porro optio quia non sapiente?</p>
+
+                    <div class="app-img">
+                        <img src="images/doubleApp.png">
+                        <img src="images/playstore.png">
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img
+                        src="https://cdn.dribbble.com/userupload/31373180/file/original-018e4f98cc3804bab6c8c41ceb8fb706.png?resize=1504x1128&vertical=center">
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Food Section -->
+        <section class="other-section container">
+            <div class="row-container">
+                <div class="image-container">
+                    <img
+                        src="https://media.istockphoto.com/id/1311831516/photo/tasty-pancakes-with-cottage-cheese-and-berries-pancakes-for-breakfast.jpg?s=612x612&w=0&k=20&c=3DIRYSBjkiXDKJUv12R0uiyUP_9cWdxglvP-p7JGOeI=">
+                </div>
+
+                <div class="content">
+                    <h2>Best Sell <br> Food In This Week!</h2>
+                    <div class="rating">
+                        <h4>$15.00</h4>
+                        <i class="material-icons">star</i>
+                        <i class="material-icons">star</i>
+                        <i class="material-icons">star</i>
+                        <i class="material-icons">star</i>
+                        <i class="material-icons">star</i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos error, eius, cum ipsam molestias
+                        voluptas libero eum quas modi natus cumque. Sit.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus nam non dicta rerum quidem?
+                    </p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Letter Section -->
+
+        <section class="other-section container">
+            <div class="column-container">
+                <h2>Subscribe Our Newslatter</h2>
+                <p data-type="centered-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ea at,
+                    magnam tempora odit ipsum corporis eos accusamus.</p>
+
+                <form class="form-container">
+                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Email Address Here">
+                    <input type="submit" value="Subscribe" class="form-btn">
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer Part -->
+    <footer class="other-container container mint-glow">
+        <div class="column-container">
+            <div class="card-container">
+                <div class="column">
+                    <div class="logo">
+                        <a href="#" class="logo-txt">Bake<span>ry</span></a>
+                    </div>
+                    <p data-type="balanced-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. At sequi eligendi eius sit itaque harum?
+                    </p>
+                    <div class="icons">
+                        <a href="#" class="icons-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                        <a href="#" class="icons-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="icons-link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="icons-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <h4>Resources</h4>
+
+                    <ul class="footer-list">
+                            <li>
+                                <a href="#" class="footer-links">Resource</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">Email Support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">API Documention</a>
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h4>Menu</h4>
+
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#" class="footer-links">Cup Cake</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-links">Cookies</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-links">Sandwich</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-links">Bread</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-links">Biscuit</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-links">Raspberry Cake</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h4>Services</h4>
+
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#" class="footer-links">Home Delivery</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">Office Delivery</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">Event</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">Birthday</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-links">Restaurent</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="column">
+                    <h4>Contact</h4>
+
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#" class="icons-link">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </a>
+                                <a href="#" class="footer-links" >Jhumari Telaiya, Koderma</a>
+                            </li>
+                            <li>
+                               <a href="#" class="icons-link">
+                                <i class="fa-solid fa-phone "></i>
+                               </a>
+                                <a href="#" class="footer-links">+91 9708798088</a>
+                            </li>
+                            <li>
+                              <a href="#" class="icons-link">
+                                <i class="fa-solid fa-envelope "></i>
+                              </a>
+                                <a href="#" class="footer-links">Modi@gmail.com</a>
+                            </li>
+                          
+                        </ul>
+                </div>
+            </div>
+
+            <div class="line"></div>
+            <h4>
+                &copy;Copyright Bakery.All Right Reserved
+            </h4>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
